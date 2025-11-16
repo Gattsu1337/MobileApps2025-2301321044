@@ -14,6 +14,21 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.mangaverse.ui.theme.MangaVerseTheme
 
 class MainActivity : ComponentActivity() {
+    /**
+     * Called when the activity is first created.
+     *
+     * This is where the majority of initialization should go: calling `setContentView(int)`
+     * to inflate the activity's UI, using `findViewById(int)` to programmatically interact
+     * with widgets in the UI, and configuring the activity's initial state.
+     *
+     * This implementation sets up the main content view using Jetpack Compose. It enables
+     * edge-to-edge display, applies the [MangaVerseTheme], and sets up a basic layout
+     * with a [Scaffold] that contains a [Greeting] composable.
+     *
+     * @param savedInstanceState If the activity is being re-initialized after
+     *     previously being shut down then this Bundle contains the data it most
+     *     recently supplied in [onSaveInstanceState].  **Note: Otherwise it is null.**
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
