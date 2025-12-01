@@ -48,7 +48,7 @@ fun MangaVerseNavHost(app: MangaVerseApp) {
 
         composable(
             route = Screen.MangaDetail.route,
-            arguments =listOf(navArgumenet("mangaId") { type = NavType.IntType })
+            arguments =listOf(navArgument("mangaId") { type = NavType.IntType })
         ) { backStackEntry ->
             val mangaId = backStackEntry.arguments?.getInt("mangaId") ?: 0
 
