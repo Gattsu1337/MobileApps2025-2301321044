@@ -32,8 +32,10 @@ MangaVerse is a modern Android application that allows manga enthusiasts to:
 ---
 
 ## 📦 Getting Started
-1. Clone the repository:
+1. Clone the repository: 
    ```bash
+   git clone https://github.com/Gattsu1337/MobileApps2025-2301321044.git
+
 2. Or download the apk directly
 3. Select an emulator with an API 35 or less, so that the ui test cases run successfully
 4. Power on and run device
